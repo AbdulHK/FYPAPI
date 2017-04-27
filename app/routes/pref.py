@@ -1,4 +1,4 @@
-from ..model.userpref import UserPref
+from model.userpref import UserPref
 from app import app, db,auth
 from flask import jsonify, request, abort , g , Flask
 

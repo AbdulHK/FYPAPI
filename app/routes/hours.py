@@ -1,7 +1,7 @@
 from app import app,db,auth
 from flask import abort
 from flask import jsonify, request
-from ..model.hours import Hours
+from model.hours import Hours
 
 
 @app.route('/api/restaurant/time/all/',methods=['GET'])

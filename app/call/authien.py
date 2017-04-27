@@ -1,6 +1,6 @@
 from app import app, db, auth
 from flask import jsonify, g
-from ..model.user import User
+from model.user import User
 
 @auth.verify_password
 def verify_password(username_or_token, password):
