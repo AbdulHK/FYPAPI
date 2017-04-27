@@ -3,8 +3,8 @@ from app import app, db,auth
 from flask import jsonify, request, abort , g , Flask
 from flask import send_from_directory
 from flask import url_for
-from model.review import Review
-from model.user import User
+from ..model.review import Review
+from ..model.user import User
 from werkzeug.utils import secure_filename
 
 

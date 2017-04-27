@@ -3,7 +3,7 @@ from app import app, db,auth
 from flask import flash,send_from_directory
 from flask import jsonify, request, abort,g
 from flask import url_for
-from model.user import User
+from ..model.user import User
 from werkzeug.utils import secure_filename, redirect
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 

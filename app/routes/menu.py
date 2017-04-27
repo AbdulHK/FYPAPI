@@ -1,6 +1,6 @@
 from app import app,db
 from flask import jsonify, request
-from model.menu import Menu
+from ..model.menu import Menu
 
 @app.route('/api/menu/display/',methods=['GET'])
 def display_menu():

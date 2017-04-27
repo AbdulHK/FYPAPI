@@ -1,6 +1,6 @@
 from app import app,db,auth
 from flask import jsonify, request,send_from_directory,url_for
-from model.restaurant import Restaurant
+from ..model.restaurant import Restaurant
 from geopy.geocoders import Nominatim
 from werkzeug.utils import secure_filename
 import os,ssl,simplejson
